@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hi, I'm Aafaque</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/4.6.2/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/4.6.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/4.6.2/firebase-database.js"></script>
+    <script defer src="/__/firebase/4.6.2/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/4.6.2/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+  </head>
+  <body>
+    <div id="message">
+       <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand wc" href="#myPage">Im Aafaque</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right wc">
+                    <li><a href="firebase.html">FIREBASE</a></li>
+                    <li><a href="#band">BAND</a></li>
+                    <li><a href="#tour">TOUR</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Extras</a></li>
+                            <li><a href="#">Media</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- First Container -->
+    <div class="container-fluid bg-1 text-center">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3 class="margin ">Who Am I?</h3>
+                <img src="https://sample-weber.firebaseapp.com/me.png" class="img-responsive img-circle margin img320" style="display:inline" alt="Aafaque">
+                <h3 class="mt-0 "> I'm Aafaque </h3>
+                <h4 class=""> A UI/UX Designer working in a most valuable IT Services worldwide. I have 8 months of experience in UI/UX designing and worked in various Internal and Client Projects. This website will undergo a rigorous transformation in design and development.</h4>
+                <div class="btn btn-admin mt-20 cs mt-20" data-toggle="modal" data-target="#myModal"> Latest Design </div>
+            </div>
+        </div>
+    </div>
+   <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body modal-resize">
+                        <div style="background-color:rgba(0,0,0,0.8); width: 100%; min-height: 800px;">
+                            <div class="col-lg-12 text-center">
+                                <h4 class="Raleway text-center" style="padding-top: 10px;"><strong> Get Started </strong></h4>
+                                <div class="mt-20">
+                                    <p>Start Exploring and Engage in Anyone Can Code by Simply Creating Problems/Challenge and Track students </p>
+                                </div>
+                                <ul class="tab-switch mt-20 nav nav-tabs clearfix">
+                                    <li class="active tab-expo">
+                                        <div data-toggle="pill" href="#expo">
+                                            Problem
+                                        </div>
+                                    </li>
+                                    <li class="tab-expo">
+                                        <div class="" data-toggle="pill" href="#unexpo">
+                                            Challenge
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <section class="tab-pane fade in active" id="expo">
+                                        <div class="col-lg-12 mt-20 text-left">
+                                            <div class="mt-10">
+                                                <span style="display: table-cell; vertical-align: middle;"><i class="fa fa-rocket fa-lg fa-gr vat" aria-hidden="true"></i></span>
+                                                <div style="display: table-cell; padding-left: 20px;">
+                                                    <span class="raleway fs-18"><strong> Create a problem</strong></span>
+                                                    <p class="fs-12"> Start creating problems with 50+ Languages like Python, C, C++, Java and more...</p>
+                                                </div>
+                                            </div>
+                                            <div class="mt-10">
+                                                <span style="display: table-cell; vertical-align: middle;"><i class="fa fa-rocket fa-lg vat" aria-hidden="true"></i></span>
+                                                <div style="display: table-cell; padding-left: 20px;">
+                                                    <span class="raleway fs-18"><strong>Track Student Participation</strong></span>
+                                                    <p class="fs-12">Identify the best talents and analyze their Skills</p>
+                                                </div>
+                                            </div>
+                                            <div class="mt-10">
+                                                <span style="display: table-cell; vertical-align: middle;"><i class="fa fa-rocket fa-lg vat" aria-hidden="true"></i></span>
+                                                <div style="display: table-cell; padding-left: 20px;">
+                                                    <span class="raleway fs-18"><strong>Leaderboard</strong></span>
+                                                    <p class="fs-12">Track your problem users and their scores</p>
+                                                </div>
+                                            </div>
+                                            <div class="mt-10">
+                                                <span style="display: table-cell; vertical-align: middle;"><i class="fa fa-rocket fa-lg vat" aria-hidden="true"></i></span>
+                                                <div style="display: table-cell; padding-left: 20px;">
+                                                    <span class="raleway fs-18"><strong>Download Reports</strong></span>
+                                                    <p class="fs-12">Generate Reports</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-style mt-20 cs color-main">
+                                            <i class="fa fa-envelope-open" aria-hidden="true"></i> Create Now
+                                        </button>
+                                    </section>
+                                    <section class="tab-pane fade" id="unexpo">
+                                        <div class="col-lg-12 mt-20 text-left">
+                                            <div class="mt-10">
+                                                <span style="display: table-cell; vertical-align: middle;"><i class="fa fa-rocket fa-lg fa-gr vat" aria-hidden="true"></i></span>
+                                                <div style="display: table-cell; padding-left: 20px;">
+                                                    <span class="raleway fs-18"><strong> Create a challenge</strong></span>
+                                                    <p class="fs-12"> Start creating Challenges with Multiple Problems</p>
+                                                </div>
+                                            </div>
+                                            <div class="mt-10">
+                                                <span style="display: table-cell; vertical-align: middle;"><i class="fa fa-rocket fa-lg vat" aria-hidden="true"></i></span>
+                                                <div style="display: table-cell; padding-left: 20px;">
+                                                    <span class="raleway fs-18"><strong>Track Student Participation</strong></span>
+                                                    <p class="fs-12">Identify the best talents and analyze their Skills</p>
+                                                </div>
+                                            </div>
+                                            <div class="mt-10">
+                                                <span style="display: table-cell; vertical-align: middle;"><i class="fa fa-rocket fa-lg vat" aria-hidden="true"></i></span>
+                                                <div style="display: table-cell; padding-left: 20px;">
+                                                    <span class="raleway fs-18"><strong>Leaderboard</strong></span>
+                                                    <p class="fs-12">Track your problem users and their scores</p>
+                                                </div>
+                                            </div>
+                                            <div class="mt-10">
+                                                <span style="display: table-cell; vertical-align: middle;"><i class="fa fa-rocket fa-lg vat" aria-hidden="true"></i></span>
+                                                <div style="display: table-cell; padding-left: 20px;">
+                                                    <span class="raleway fs-18"><strong>Download Reports</strong></span>
+                                                    <p class="fs-12">Generate Reports</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 text-center">
+                                            <div style="color: moccasin"> Sorry! Currently you have no access to create a challenge. Please contact Admin to get Access </div>
+                                            <div class="btn btn-admin mt-20 cs btn-disabled mt-20"> Contact Admin </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  </body>
+</html>

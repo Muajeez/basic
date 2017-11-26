@@ -1,0 +1,225 @@
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.8;
+
+    color: #f5f6f7;
+    background: white;
+}
+
+.raleway {
+	font-family: 'Raleway', sans-serif;
+}
+
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+.mt-0
+{
+    margin-top: 0;
+}
+.mt-10
+{
+    margin-top: 10px;
+}
+.mt-20
+{
+    margin-top: 20px;
+}
+.mt-30
+{
+    margin-top: 30px;
+}
+.mt-50
+{
+    margin-top: 50px;
+}
+.mb-0
+{
+    margin-bottom: 0;
+}
+.mb-10
+{
+    margin-bottom: 10px;
+}
+.mb-20
+{
+    margin-bottom: 20px;
+}
+.mb-30
+{
+    margin-bottom: 30px;
+}
+.mb-50
+{
+    margin-bottom: 50px;
+}
+.padding-left-reset
+{
+    padding-left: 0;
+}
+.padding-right-reset
+{
+    padding-right: 0;
+}
+.padding-reset
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+p{
+    font-size: 16px;
+}
+.margin
+{
+    margin-bottom: 45px;
+}
+.bg-1
+{
+    color: #fff;
+    background-color: #1abc9c; /* Green */
+    min-height: 800px;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    color: #fff;
+}
+
+.wc {
+	color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+
+img.img-responsive.img-circle.margin.img320 {
+    width: 240px;
+    height: 240px;
+}
+
+.cs {
+    font-size: 16px;
+    padding: 10px 40px;
+}
+
+.btn-admin {
+    background: #6B7A8F;
+    color: #fff;
+}
+
+.tab-switch {
+    width: 220px;
+    height: 50px;
+    border-radius: 4px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tab-switch .active {
+    background: #0C404E;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tab-expo {
+    color: #333;
+    display: inline-block;
+    font-size: 18px;
+    padding: 3px;
+    width: 102px;
+    text-align: center;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+    margin-top: -10px;
+}
+
+.modal-resize {
+    background-image: url("https://sample-weber.firebaseapp.com/back.jpeg");
+    background-size: cover;
+    color: #fff;
+}
+
+.vat {
+    vertical-align: top;
+}
+
+.cs {
+    font-size: 16px;
+    padding: 10px 40px;
+}
+
+
+
+/*resuable codes*/
+
+.color-main:hover {
+    color: #633af8 !important;
+    background: #f2f2f2;
+    border: 2px solid #633af8;
+}
+
+.btn.focus,
+.btn:focus,
+.btn:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.color-main {
+    background: #633af8;
+    color: #fff;
+    border: 2px solid #633af8;
+    font-weight: 700;
+}
+
+.btn-style {
+    border-radius: 50px;
+    border: 2px solid #633af8;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 12px;
+}
+
+.btn-admin {
+    background: #6B7A8F;
+    color: #fff;
+}
+
+.btn-admin:hover {
+    background: #424b57;
+    color: #fff;
+}
